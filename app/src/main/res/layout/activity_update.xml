@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".updateActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/sailorBlue"
+            app:titleTextColor="@color/mint" />
+
+        <ProgressBar
+            android:id="@+id/pb"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:id="@+id/uDPIV"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="225dp"
+            app:srcCompat="@drawable/ic_baseline_person_24" />
+
+        <EditText
+            android:id="@+id/uUNET"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/uDPIV"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:hint="Enter Username"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/updateBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/uUNET"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:text="save"
+            android:textColor="@color/mint" />
+
+
+</RelativeLayout>

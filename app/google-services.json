@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "2591304069",
+    "project_id": "the-chatting-app-a5afa",
+    "storage_bucket": "the-chatting-app-a5afa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2591304069:android:2e56ad3b68738e71c57cec",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2591304069-fbkem2okfeth81np1lfoof88rhl86v49.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVetjktC02_jHnP-mS3Aqp5acsaScaQ5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2591304069-fbkem2okfeth81np1lfoof88rhl86v49.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
